@@ -16,5 +16,38 @@ namespace Kolko_i_krzyzyk_6x6
         {
             InitializeComponent();
         }
+
+        public int gracz = 2;
+        public int tura = 0;
+
+
+        private void EXIT_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void NOWA_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void przycisk(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            if (button.Text == "")
+            {
+                if (gracz % 2 == 0)
+                {
+                    button.Text = "X";
+                    gracz++;
+
+                }
+                else
+                {
+                    button.Text = "O";
+                    gracz++;
+                }
+            }
+        }
     }
 }

@@ -76,6 +76,7 @@
             this.A1.Size = new System.Drawing.Size(30, 30);
             this.A1.TabIndex = 0;
             this.A1.UseVisualStyleBackColor = true;
+            this.A1.Click += new System.EventHandler(this.przycisk);
             // 
             // A2
             // 
@@ -84,6 +85,7 @@
             this.A2.Size = new System.Drawing.Size(30, 30);
             this.A2.TabIndex = 1;
             this.A2.UseVisualStyleBackColor = true;
+            this.A2.Click += new System.EventHandler(this.przycisk);
             // 
             // A3
             // 
@@ -92,6 +94,7 @@
             this.A3.Size = new System.Drawing.Size(30, 30);
             this.A3.TabIndex = 2;
             this.A3.UseVisualStyleBackColor = true;
+            this.A3.Click += new System.EventHandler(this.przycisk);
             // 
             // A4
             // 
@@ -100,6 +103,7 @@
             this.A4.Size = new System.Drawing.Size(30, 30);
             this.A4.TabIndex = 3;
             this.A4.UseVisualStyleBackColor = true;
+            this.A4.Click += new System.EventHandler(this.przycisk);
             // 
             // A5
             // 
@@ -108,6 +112,7 @@
             this.A5.Size = new System.Drawing.Size(30, 30);
             this.A5.TabIndex = 4;
             this.A5.UseVisualStyleBackColor = true;
+            this.A5.Click += new System.EventHandler(this.przycisk);
             // 
             // A6
             // 
@@ -116,6 +121,7 @@
             this.A6.Size = new System.Drawing.Size(30, 30);
             this.A6.TabIndex = 5;
             this.A6.UseVisualStyleBackColor = true;
+            this.A6.Click += new System.EventHandler(this.przycisk);
             // 
             // B1
             // 
@@ -124,6 +130,7 @@
             this.B1.Size = new System.Drawing.Size(30, 30);
             this.B1.TabIndex = 7;
             this.B1.UseVisualStyleBackColor = true;
+            this.B1.Click += new System.EventHandler(this.przycisk);
             // 
             // B2
             // 
@@ -132,6 +139,7 @@
             this.B2.Size = new System.Drawing.Size(30, 30);
             this.B2.TabIndex = 8;
             this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.przycisk);
             // 
             // B3
             // 
@@ -140,6 +148,7 @@
             this.B3.Size = new System.Drawing.Size(30, 30);
             this.B3.TabIndex = 9;
             this.B3.UseVisualStyleBackColor = true;
+            this.B3.Click += new System.EventHandler(this.przycisk);
             // 
             // B4
             // 
@@ -148,6 +157,7 @@
             this.B4.Size = new System.Drawing.Size(30, 30);
             this.B4.TabIndex = 10;
             this.B4.UseVisualStyleBackColor = true;
+            this.B4.Click += new System.EventHandler(this.przycisk);
             // 
             // B5
             // 
@@ -156,6 +166,7 @@
             this.B5.Size = new System.Drawing.Size(30, 30);
             this.B5.TabIndex = 11;
             this.B5.UseVisualStyleBackColor = true;
+            this.B5.Click += new System.EventHandler(this.przycisk);
             // 
             // B6
             // 
@@ -164,6 +175,7 @@
             this.B6.Size = new System.Drawing.Size(30, 30);
             this.B6.TabIndex = 12;
             this.B6.UseVisualStyleBackColor = true;
+            this.B6.Click += new System.EventHandler(this.przycisk);
             // 
             // C1
             // 
@@ -172,6 +184,7 @@
             this.C1.Size = new System.Drawing.Size(30, 30);
             this.C1.TabIndex = 14;
             this.C1.UseVisualStyleBackColor = true;
+            this.C1.Click += new System.EventHandler(this.przycisk);
             // 
             // C2
             // 
@@ -180,6 +193,7 @@
             this.C2.Size = new System.Drawing.Size(30, 30);
             this.C2.TabIndex = 15;
             this.C2.UseVisualStyleBackColor = true;
+            this.C2.Click += new System.EventHandler(this.przycisk);
             // 
             // C3
             // 
@@ -188,6 +202,7 @@
             this.C3.Size = new System.Drawing.Size(30, 30);
             this.C3.TabIndex = 16;
             this.C3.UseVisualStyleBackColor = true;
+            this.C3.Click += new System.EventHandler(this.przycisk);
             // 
             // C4
             // 
@@ -196,6 +211,7 @@
             this.C4.Size = new System.Drawing.Size(30, 30);
             this.C4.TabIndex = 17;
             this.C4.UseVisualStyleBackColor = true;
+            this.C4.Click += new System.EventHandler(this.przycisk);
             // 
             // C5
             // 
@@ -204,6 +220,7 @@
             this.C5.Size = new System.Drawing.Size(30, 30);
             this.C5.TabIndex = 18;
             this.C5.UseVisualStyleBackColor = true;
+            this.C5.Click += new System.EventHandler(this.przycisk);
             // 
             // C6
             // 
@@ -212,6 +229,7 @@
             this.C6.Size = new System.Drawing.Size(30, 30);
             this.C6.TabIndex = 19;
             this.C6.UseVisualStyleBackColor = true;
+            this.C6.Click += new System.EventHandler(this.przycisk);
             // 
             // D1
             // 
@@ -220,6 +238,7 @@
             this.D1.Size = new System.Drawing.Size(30, 30);
             this.D1.TabIndex = 21;
             this.D1.UseVisualStyleBackColor = true;
+            this.D1.Click += new System.EventHandler(this.przycisk);
             // 
             // D2
             // 
@@ -228,6 +247,7 @@
             this.D2.Size = new System.Drawing.Size(30, 30);
             this.D2.TabIndex = 22;
             this.D2.UseVisualStyleBackColor = true;
+            this.D2.Click += new System.EventHandler(this.przycisk);
             // 
             // D3
             // 
@@ -236,6 +256,7 @@
             this.D3.Size = new System.Drawing.Size(30, 30);
             this.D3.TabIndex = 23;
             this.D3.UseVisualStyleBackColor = true;
+            this.D3.Click += new System.EventHandler(this.przycisk);
             // 
             // D4
             // 
@@ -244,6 +265,7 @@
             this.D4.Size = new System.Drawing.Size(30, 30);
             this.D4.TabIndex = 24;
             this.D4.UseVisualStyleBackColor = true;
+            this.D4.Click += new System.EventHandler(this.przycisk);
             // 
             // D5
             // 
@@ -252,6 +274,7 @@
             this.D5.Size = new System.Drawing.Size(30, 30);
             this.D5.TabIndex = 25;
             this.D5.UseVisualStyleBackColor = true;
+            this.D5.Click += new System.EventHandler(this.przycisk);
             // 
             // D6
             // 
@@ -260,6 +283,7 @@
             this.D6.Size = new System.Drawing.Size(30, 30);
             this.D6.TabIndex = 26;
             this.D6.UseVisualStyleBackColor = true;
+            this.D6.Click += new System.EventHandler(this.przycisk);
             // 
             // E1
             // 
@@ -268,6 +292,7 @@
             this.E1.Size = new System.Drawing.Size(30, 30);
             this.E1.TabIndex = 28;
             this.E1.UseVisualStyleBackColor = true;
+            this.E1.Click += new System.EventHandler(this.przycisk);
             // 
             // E2
             // 
@@ -276,6 +301,7 @@
             this.E2.Size = new System.Drawing.Size(30, 30);
             this.E2.TabIndex = 29;
             this.E2.UseVisualStyleBackColor = true;
+            this.E2.Click += new System.EventHandler(this.przycisk);
             // 
             // E3
             // 
@@ -284,6 +310,7 @@
             this.E3.Size = new System.Drawing.Size(30, 30);
             this.E3.TabIndex = 30;
             this.E3.UseVisualStyleBackColor = true;
+            this.E3.Click += new System.EventHandler(this.przycisk);
             // 
             // E4
             // 
@@ -292,6 +319,7 @@
             this.E4.Size = new System.Drawing.Size(30, 30);
             this.E4.TabIndex = 31;
             this.E4.UseVisualStyleBackColor = true;
+            this.E4.Click += new System.EventHandler(this.przycisk);
             // 
             // E5
             // 
@@ -300,6 +328,7 @@
             this.E5.Size = new System.Drawing.Size(30, 30);
             this.E5.TabIndex = 32;
             this.E5.UseVisualStyleBackColor = true;
+            this.E5.Click += new System.EventHandler(this.przycisk);
             // 
             // E6
             // 
@@ -308,6 +337,7 @@
             this.E6.Size = new System.Drawing.Size(30, 30);
             this.E6.TabIndex = 33;
             this.E6.UseVisualStyleBackColor = true;
+            this.E6.Click += new System.EventHandler(this.przycisk);
             // 
             // F1
             // 
@@ -316,6 +346,7 @@
             this.F1.Size = new System.Drawing.Size(30, 30);
             this.F1.TabIndex = 35;
             this.F1.UseVisualStyleBackColor = true;
+            this.F1.Click += new System.EventHandler(this.przycisk);
             // 
             // F2
             // 
@@ -324,6 +355,7 @@
             this.F2.Size = new System.Drawing.Size(30, 30);
             this.F2.TabIndex = 36;
             this.F2.UseVisualStyleBackColor = true;
+            this.F2.Click += new System.EventHandler(this.przycisk);
             // 
             // F3
             // 
@@ -332,6 +364,7 @@
             this.F3.Size = new System.Drawing.Size(30, 30);
             this.F3.TabIndex = 37;
             this.F3.UseVisualStyleBackColor = true;
+            this.F3.Click += new System.EventHandler(this.przycisk);
             // 
             // F4
             // 
@@ -340,6 +373,7 @@
             this.F4.Size = new System.Drawing.Size(30, 30);
             this.F4.TabIndex = 38;
             this.F4.UseVisualStyleBackColor = true;
+            this.F4.Click += new System.EventHandler(this.przycisk);
             // 
             // F5
             // 
@@ -348,6 +382,7 @@
             this.F5.Size = new System.Drawing.Size(30, 30);
             this.F5.TabIndex = 39;
             this.F5.UseVisualStyleBackColor = true;
+            this.F5.Click += new System.EventHandler(this.przycisk);
             // 
             // F6
             // 
@@ -356,6 +391,7 @@
             this.F6.Size = new System.Drawing.Size(30, 30);
             this.F6.TabIndex = 40;
             this.F6.UseVisualStyleBackColor = true;
+            this.F6.Click += new System.EventHandler(this.przycisk);
             // 
             // NOWA
             // 
@@ -365,6 +401,7 @@
             this.NOWA.TabIndex = 42;
             this.NOWA.Text = "Nowa gra";
             this.NOWA.UseVisualStyleBackColor = true;
+            this.NOWA.Click += new System.EventHandler(this.NOWA_Click);
             // 
             // EXIT
             // 
@@ -374,6 +411,7 @@
             this.EXIT.TabIndex = 43;
             this.EXIT.Text = "Exit";
             this.EXIT.UseVisualStyleBackColor = true;
+            this.EXIT.Click += new System.EventHandler(this.EXIT_Click);
             // 
             // Form1
             // 
