@@ -28,7 +28,13 @@ namespace Kolko_i_krzyzyk_6x6
 
         private void NOWA_Click(object sender, EventArgs e)
         {
-           
+            
+            A1.Text = A2.Text = A3.Text = A4.Text = A5.Text = A6.Text = "";
+            B1.Text = B2.Text = B3.Text = B4.Text = B5.Text = B6.Text = "";
+            C1.Text = C2.Text = C3.Text = C4.Text = C5.Text = C6.Text = "";
+            D1.Text = D2.Text = D3.Text = D4.Text = D5.Text = D6.Text = "";
+            E1.Text = E2.Text = E3.Text = E4.Text = E5.Text = E6.Text = "";
+            F1.Text = F2.Text = F3.Text = F4.Text = F5.Text = F6.Text = "";
         }
 
         private void przycisk(object sender, EventArgs e)
