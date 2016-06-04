@@ -44,16 +44,32 @@ namespace Kolko_i_krzyzyk_6x6
             {
                 if (gracz % 2 == 0)
                 {
+
                     button.Text = "X";
                     gracz++;
-
+                    tura++;
                 }
                 else
                 {
                     button.Text = "O";
+                    tura++;
                     gracz++;
                 }
+                if (remis() == true)
+                {
+                    MessageBox.Show("Remis!");
+                }
+
             }
         }
+       
+        bool remis()
+        {
+            if (tura == 36)
+                return true;
+            else
+                return false;
+        }
+      
     }
 }
