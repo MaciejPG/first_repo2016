@@ -45,12 +45,27 @@ namespace Kolko_i_krzyzyk_6x6
             Button button = (Button)sender;
             if (button.Text == "")
             {
+                if (tura % 2 == 0)
+                {
+                    button.BackColor = Color.White;
+                    button.ForeColor = Color.Black;
+
+
+
+                }
+                else
+                {
+                    button.BackColor = Color.Black;
+                    button.ForeColor = Color.White;
+                }
+
                 if (gracz % 2 == 0)
                 {
 
                     button.Text = "X";
                     gracz++;
                     tura++;
+                   
                 }
                 else
                 {
@@ -58,7 +73,7 @@ namespace Kolko_i_krzyzyk_6x6
                     tura++;
                     gracz++;
                 }
-                if (remis() == true)
+                if ((remis() == true)&&zwyciezca()==false)
                 {
                     MessageBox.Show("Remis!");
                 }
@@ -217,7 +232,7 @@ namespace Kolko_i_krzyzyk_6x6
                 else
                 return false;
 
-
+            
           
 
         }
