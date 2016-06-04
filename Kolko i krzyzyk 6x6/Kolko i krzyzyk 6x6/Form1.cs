@@ -35,6 +35,9 @@ namespace Kolko_i_krzyzyk_6x6
             D1.Text = D2.Text = D3.Text = D4.Text = D5.Text = D6.Text = "";
             E1.Text = E2.Text = E3.Text = E4.Text = E5.Text = E6.Text = "";
             F1.Text = F2.Text = F3.Text = F4.Text = F5.Text = F6.Text = "";
+
+            gracz = 0;
+            tura = 0;
         }
 
         private void przycisk(object sender, EventArgs e)
@@ -165,7 +168,7 @@ namespace Kolko_i_krzyzyk_6x6
 
             else if ((A1.Text == B2.Text) && (B2.Text == C3.Text) && (C3.Text == D4.Text) && A1.Text != "")
                 return true;
-            else if ((B2.Text == C3.Text) && (C3.Text == D4.Text) && (D4.Text == E4.Text) && B2.Text != "")
+            else if ((B2.Text == C3.Text) && (C3.Text == D4.Text) && (D4.Text == E5.Text) && B2.Text != "")
                 return true;
             else if ((C3.Text == D4.Text) && (D4.Text == E5.Text) && (E5.Text == F6.Text) && C3.Text != "")
                 return true;
