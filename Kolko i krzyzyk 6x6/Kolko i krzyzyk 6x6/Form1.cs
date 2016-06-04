@@ -178,7 +178,7 @@ namespace Kolko_i_krzyzyk_6x6
             else if ((A3.Text == B4.Text) && (B4.Text == C5.Text) && (C5.Text == D6.Text) && A3.Text != "")
                 return true;
 
-            else if ((B1.Text == C2.Text) && (C2.Text == D3.Text) && (D3.Text == E4.Text) && B2.Text != "")
+            else if ((B1.Text == C2.Text) && (C2.Text == D3.Text) && (D3.Text == E4.Text) && B1.Text != "")
                 return true;
             else if ((C2.Text == D3.Text) && (D3.Text == E4.Text) && (E4.Text == F5.Text) && C2.Text != "")
                 return true;
@@ -222,6 +222,7 @@ namespace Kolko_i_krzyzyk_6x6
         {
             if (tura == 36)
                 return true;
+            
             else
                 return false;
         }
