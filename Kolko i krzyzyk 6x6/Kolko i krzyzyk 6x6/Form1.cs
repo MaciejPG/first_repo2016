@@ -36,8 +36,17 @@ namespace Kolko_i_krzyzyk_6x6
             E1.Text = E2.Text = E3.Text = E4.Text = E5.Text = E6.Text = "";
             F1.Text = F2.Text = F3.Text = F4.Text = F5.Text = F6.Text = "";
 
+            A1.BackColor = A2.BackColor = A3.BackColor = A4.BackColor = A5.BackColor = A6.BackColor = default(Color);
+            B1.BackColor = B2.BackColor = B3.BackColor = B4.BackColor = B5.BackColor = B6.BackColor = default(Color);
+            C1.BackColor = C2.BackColor = C3.BackColor = C4.BackColor = C5.BackColor = C6.BackColor = default(Color);
+            D1.BackColor = D2.BackColor = D3.BackColor = D4.BackColor = D5.BackColor = D6.BackColor = default(Color);
+            E1.BackColor = E2.BackColor = E3.BackColor = E4.BackColor = E5.BackColor = E6.BackColor = default(Color);
+            F1.BackColor = F2.BackColor = F3.BackColor = F4.BackColor = F5.BackColor = F6.BackColor = default(Color);
+
             gracz = 0;
             tura = 0;
+            
+
         }
 
         private void przycisk(object sender, EventArgs e)
@@ -49,10 +58,7 @@ namespace Kolko_i_krzyzyk_6x6
                 {
                     button.BackColor = Color.White;
                     button.ForeColor = Color.Black;
-
-
-
-                }
+                 }
                 else
                 {
                     button.BackColor = Color.Black;
@@ -89,7 +95,9 @@ namespace Kolko_i_krzyzyk_6x6
                 }
 
             }
+
         }
+       
         private bool zwyciezca()
         {
             if ((A1.Text == A2.Text) && (A2.Text == A3.Text) && (A3.Text == A4.Text) && A1.Text != "")
@@ -246,4 +254,5 @@ namespace Kolko_i_krzyzyk_6x6
         }
       
     }
+   
 }
