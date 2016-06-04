@@ -59,10 +59,72 @@ namespace Kolko_i_krzyzyk_6x6
                 {
                     MessageBox.Show("Remis!");
                 }
+                if (zwyciezca() == true)
+                {
+                    if (button.Text == "X") {
+                        MessageBox.Show("Zwyciężył X");
+                            }
+                    else
+                    {
+                        MessageBox.Show("Zwyciężył O");
+                    }
+                }
 
             }
         }
-       
+        private bool zwyciezca()
+        {
+
+
+            if ((A1.Text == A2.Text) && (A2.Text == A3.Text) && (A3.Text == A4.Text) && A1.Text != "")
+                return true;
+            else if ((A2.Text == A3.Text) && (A3.Text == A4.Text) && (A4.Text == A5.Text) && A2.Text != "")
+                return true;
+            else if ((A3.Text == A4.Text) && (A4.Text == A5.Text) && (A5.Text == A6.Text) && A3.Text != "")
+                return true;
+
+            else if ((B1.Text == B2.Text) && (B2.Text == B3.Text) && (B3.Text == B4.Text) && B1.Text != "")
+                return true;
+            else if ((B2.Text == B3.Text) && (B3.Text == B4.Text) && (B4.Text == B5.Text) && B2.Text != "")
+                return true;
+            else if ((B3.Text == B4.Text) && (B4.Text == B5.Text) && (B5.Text == B6.Text) && B3.Text != "")
+                return true;
+
+
+            else if ((C1.Text == C2.Text) && (C2.Text == C3.Text) && (C3.Text == C4.Text) && C1.Text != "")
+                return true;
+            else if ((C2.Text == C3.Text) && (C3.Text == C4.Text) && (C4.Text == C5.Text) && C2.Text != "")
+                return true;
+            else if ((C3.Text == C4.Text) && (C4.Text == C5.Text) && (C5.Text == C6.Text) && C3.Text != "")
+                return true;
+
+            else if ((D1.Text == D2.Text) && (D2.Text == D3.Text) && (D3.Text == D4.Text) && D1.Text != "")
+                return true;
+            else if ((D2.Text == D3.Text) && (D3.Text == D4.Text) && (D4.Text == D5.Text) && D2.Text != "")
+                return true;
+            else if ((D3.Text == D4.Text) && (D4.Text == D5.Text) && (D5.Text == D6.Text) && D3.Text != "")
+                return true;
+
+            else if ((E1.Text == E2.Text) && (E2.Text == E3.Text) && (E3.Text == E4.Text) && E1.Text != "")
+                return true;
+            else if ((E2.Text == E3.Text) && (E3.Text == E4.Text) && (E4.Text == E5.Text) && E2.Text != "")
+                return true;
+            else if ((E3.Text == E4.Text) && (E4.Text == E5.Text) && (E5.Text == E6.Text) && E3.Text != "")
+                return true;
+
+            else if ((F1.Text == F2.Text) && (F2.Text == F3.Text) && (F3.Text == F4.Text) && F1.Text != "")
+                return true;
+            else if ((F2.Text == F3.Text) && (F3.Text == F4.Text) && (F4.Text == F5.Text) && F2.Text != "")
+                return true;
+            else if ((F3.Text == F4.Text) && (F4.Text == F5.Text) && (F5.Text == F6.Text) && F3.Text != "")
+                return true;
+            else
+                return false;
+
+
+          
+
+        }
         bool remis()
         {
             if (tura == 36)
