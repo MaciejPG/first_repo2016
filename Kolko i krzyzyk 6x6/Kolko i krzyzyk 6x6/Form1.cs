@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Kolko_i_krzyzyk_6x6
 {
+    
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,24 +30,7 @@ namespace Kolko_i_krzyzyk_6x6
 
         private void NOWA_Click(object sender, EventArgs e)
         {
-            
-            A1.Text = A2.Text = A3.Text = A4.Text = A5.Text = A6.Text = "";
-            B1.Text = B2.Text = B3.Text = B4.Text = B5.Text = B6.Text = "";
-            C1.Text = C2.Text = C3.Text = C4.Text = C5.Text = C6.Text = "";
-            D1.Text = D2.Text = D3.Text = D4.Text = D5.Text = D6.Text = "";
-            E1.Text = E2.Text = E3.Text = E4.Text = E5.Text = E6.Text = "";
-            F1.Text = F2.Text = F3.Text = F4.Text = F5.Text = F6.Text = "";
-
-            A1.BackColor = A2.BackColor = A3.BackColor = A4.BackColor = A5.BackColor = A6.BackColor = default(Color);
-            B1.BackColor = B2.BackColor = B3.BackColor = B4.BackColor = B5.BackColor = B6.BackColor = default(Color);
-            C1.BackColor = C2.BackColor = C3.BackColor = C4.BackColor = C5.BackColor = C6.BackColor = default(Color);
-            D1.BackColor = D2.BackColor = D3.BackColor = D4.BackColor = D5.BackColor = D6.BackColor = default(Color);
-            E1.BackColor = E2.BackColor = E3.BackColor = E4.BackColor = E5.BackColor = E6.BackColor = default(Color);
-            F1.BackColor = F2.BackColor = F3.BackColor = F4.BackColor = F5.BackColor = F6.BackColor = default(Color);
-
-            gracz = 0;
-            tura = 0;
-            
+            reset();
 
         }
 
@@ -82,15 +67,19 @@ namespace Kolko_i_krzyzyk_6x6
                 if ((remis() == true)&&zwyciezca()==false)
                 {
                     MessageBox.Show("Remis!");
+                    reset();
                 }
                 if (zwyciezca() == true)
                 {
                     if (button.Text == "X") {
-                        MessageBox.Show("Zwyciężył X");
-                            }
+                        MessageBox.Show("Zwyciężył gracz: X");
+                        reset();
+                    }
+                    
                     else
                     {
-                        MessageBox.Show("Zwyciężył O");
+                        MessageBox.Show("Zwyciężył gracz: O");
+                        reset();
                     }
                 }
 
@@ -252,7 +241,35 @@ namespace Kolko_i_krzyzyk_6x6
             else
                 return false;
         }
-      
+        private void reset() 
+        {
+            A1.Text = A2.Text = A3.Text = A4.Text = A5.Text = A6.Text = "";
+            B1.Text = B2.Text = B3.Text = B4.Text = B5.Text = B6.Text = "";
+            C1.Text = C2.Text = C3.Text = C4.Text = C5.Text = C6.Text = "";
+            D1.Text = D2.Text = D3.Text = D4.Text = D5.Text = D6.Text = "";
+            E1.Text = E2.Text = E3.Text = E4.Text = E5.Text = E6.Text = "";
+            F1.Text = F2.Text = F3.Text = F4.Text = F5.Text = F6.Text = "";
+
+            A1.BackColor = A2.BackColor = A3.BackColor = A4.BackColor = A5.BackColor = A6.BackColor = default(Color);
+            B1.BackColor = B2.BackColor = B3.BackColor = B4.BackColor = B5.BackColor = B6.BackColor = default(Color);
+            C1.BackColor = C2.BackColor = C3.BackColor = C4.BackColor = C5.BackColor = C6.BackColor = default(Color);
+            D1.BackColor = D2.BackColor = D3.BackColor = D4.BackColor = D5.BackColor = D6.BackColor = default(Color);
+            E1.BackColor = E2.BackColor = E3.BackColor = E4.BackColor = E5.BackColor = E6.BackColor = default(Color);
+            F1.BackColor = F2.BackColor = F3.BackColor = F4.BackColor = F5.BackColor = F6.BackColor = default(Color);
+
+            gracz = 0;
+            tura = 0;
+        }
+
+        private void autorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Autor: Maciej Foryś", "Autor");
+        }
+
+        private void regułyGryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Plansza składa się z 36 pól, aby wygrać ustaw obok siebie cztery te same znaczniki.", "Reguły gry");
+        }
     }
    
 }
